@@ -1,0 +1,67 @@
+form
+{
+    background-color: white;
+    padding: 31px 60px;
+    border-radius: 10px;
+}
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+input{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+label{
+    font-size: 12px;
+    color: gray;
+}
+
+span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+input:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
+
+button
+{
+    margin-top: 10px;
+    background: rgb(248, 217, 15);
+    color: #222;
+}
+.facebook
+{
+    margin-left: 100px;
+    font-size: 23px;
+}
+.instagram
+{
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+.messanger
+{
+    margin-left: 20px;
+    font-size: 23px;
+}
+.google
+{
+    margin-left: 20px;
+    font-size: 23px;
+}
